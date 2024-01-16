@@ -11,6 +11,7 @@ from langchain_community.llms import huggingface_hub
 from html_template import css, bot_template, user_template
 
 
+
 def get_pdf_text(pdf_docs):
     text = ""
     for pdf in pdf_docs:
